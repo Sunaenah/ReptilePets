@@ -1,0 +1,112 @@
+* {
+  margin : 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url('../tugaskelompokboostrap/assets/img/hutan.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.judul {
+  line-height: 90px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline;
+  margin-left: 20px;
+  color: whitesmoke;
+  
+}
+.utama ul{  
+  float: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.utama ul li{
+  display: inline;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+.utama ul li a{
+  text-decoration: none;
+  font-weight: lighter;
+  color: whitesmoke;
+}
+
+.utama ul li a:hover{
+  color: rgb(81, 136, 76);
+  transition: 120ms;
+}
+
+#menu h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 150px; 
+  color:white;
+}
+#menu h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(221, 221, 221);
+}
+#menu a{
+  font-family: monospace;
+  text-decoration: none;
+  color: yellowgreen;
+  border: 1px solid  yellowgreen;
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+#menu a:hover{
+  background-color:  rgb(81, 136, 76);
+  color: rgb(221, 221, 221);
+  border-color:rgb(221, 221, 221);
+}
+
+#tentangkami h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(61, 61, 61);
+}
+#tentangkami p{
+  font-family: 'Courier New', Courier, monospace;
+}
+#galeri h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(20, 20, 20);
+}
+#galeri img{
+  margin-top: 10px;
+  width: 150px;
+  padding-bottom: 20px;
+}
+#tim h3{
+  text-align: center;
+}
+#tim a{
+  text-decoration: none;
+  color:rgb(20, 20, 20);
+  background-color:  rgb(81, 136, 76);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 13px -6px rgb(0,0,0,0.09),0px 20px 31px 3px rgb(0,0,0,0.09);
+}
+#tim a:hover{
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  background-color: rgb(20, 20, 20);
+}
+.tombolkembali{
+  text-decoration: none;
+  color:rgb(20, 20, 20);
+  background-color:  rgb(81, 136, 76);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 13px -6px rgb(0,0,0,0.09),0px 20px 31px 3px rgb(0,0,0,0.09);
+}
+.tombolkembali:hover{
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  background-color: rgb(20, 20, 20);
+}
